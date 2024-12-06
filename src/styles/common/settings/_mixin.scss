@@ -1,0 +1,23 @@
+// settings
+@use './_variables' as *;
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin print() {
+  @media print {
+    @page {
+      size: portrait;
+    }
+    @content;
+  }
+}
+
+@mixin common-style {
+  background: $white;
+  border: 1px solid $primary;
+  border-radius: $base-radius;
+}

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="715px" height="276px" viewBox="0 0 715 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>scene-overview</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scene-overview" transform="translate(0.000000, -1.000000)">
+            <polygon id="Line-2" fill="#737373" fill-rule="nonzero" points="260 65 274 72 260 79 260 73 165 73 165 71 260 71"></polygon>
+            <polygon id="Line-2" fill="#737373" fill-rule="nonzero" points="539 163 553 170 539 177 539 171 444 171 444 169 539 169"></polygon>
+            <g id="Group-5" transform="translate(281.000000, 0.000000)">
+                <g id="Group-3">
+                    <rect id="Rectangle" fill="#DFDFDF" fill-rule="nonzero" x="0" y="19.3170732" width="156" height="190.536585" rx="8"></rect>
+                    <polygon id="Line-2" fill="#737373" fill-rule="nonzero" points="80 115.182927 80 131.378 86 131.378049 79 145.378049 72 131.378049 78 131.378 78 115.182927"></polygon>
+                    <text id="2.-Match-an-intent" fill="#737373" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                        <tspan x="41.255" y="92.0243902">2. Match an intent</tspan>
+                    </text>
+                    <text id="within-a-scene" fill="#737373" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                        <tspan x="48.895" y="105.02439">within a scene</tspan>
+                    </text>
+                    <text id="Scene" fill="#737373" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold">
+                        <tspan x="65.1132812" y="9">Scene</tspan>
+                    </text>
+                    <rect id="Rectangle" fill="#4485F2" fill-rule="nonzero" x="11" y="46" width="135" height="30" rx="8"></rect>
+                    <rect id="Rectangle" fill="#FA7B17" fill-rule="nonzero" x="10" y="150" width="135" height="50" rx="8"></rect>
+                    <text id="Custom-intent" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                        <tspan x="46.145" y="172">Custom intent</tspan>
+                    </text>
+                    <text id="handler" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                        <tspan x="62.015" y="185">handler</tspan>
+                    </text>
+                    <text id="Input" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                        <tspan x="66.345" y="62">Input</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(559.000000, 0.000000)">
+                <g id="Group-3">
+                    <rect id="Rectangle" fill="#DFDFDF" fill-rule="nonzero" x="0" y="17.9653069" width="156" height="255" rx="8"></rect>
+                    <text id="Scene" fill="#737373" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold">
+                        <tspan x="64.1132812" y="9">Scene</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Invocation-model" transform="translate(39.000000, 0.000000)" fill="#737373" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold">
+                <text>
+                    <tspan x="0.2524414" y="9">Invocation model</tspan>
+                </text>
+            </g>
+            <path d="M8,22 L138.980028,22 L138.980028,22 L148,22 C152.418278,22 156,25.581722 156,30 L156,269 C156,273.418278 152.418278,277 148,277 L8,277 C3.581722,277 0,273.418278 0,269 L0,30 C0,25.581722 3.581722,22 8,22 Z" id="Rectangle" fill="#DFDFDF" fill-rule="nonzero"></path>
+            <g id="implicit-invocation" transform="translate(10.000000, 197.000000)">
+                <rect id="Rectangle" fill="#737373" fill-rule="nonzero" x="0" y="0" width="135" height="71" rx="8"></rect>
+                <g id="Implicit-invocation" transform="translate(18.000000, 18.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text>
+                        <tspan x="8.655" y="10">Implicit invocation</tspan>
+                    </text>
+                    <text id="(Global-system-intent)">
+                        <tspan x="0.175" y="23">(Global system intent)</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="deeplink-invocation" transform="translate(10.000000, 117.000000)">
+                <rect id="Rectangle" fill="#4485F2" fill-rule="nonzero" x="0" y="0" width="135" height="72" rx="8"></rect>
+                <g id="Deep-link-invocation" transform="translate(22.000000, 20.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text>
+                        <tspan x="0.265" y="10">Deep link invocation</tspan>
+                    </text>
+                    <text id="(Global-user-intents)">
+                        <tspan x="0.05" y="23">(Global user intents)</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="main-intent" transform="translate(10.000000, 33.000000)">
+                <rect id="Rectangle" fill="#737373" fill-rule="nonzero" x="0" y="0" width="135" height="76" rx="8"></rect>
+                <g id="Default-invocation-(" transform="translate(21.000000, 15.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text id="Main-invocation">
+                        <tspan x="11.335" y="10">Main invocation</tspan>
+                    </text>
+                    <text id="(actions.intent.MAIN">
+                        <tspan x="0.835" y="23">(actions.intent.MAIN</tspan>
+                    </text>
+                    <text id="system-intent)">
+                        <tspan x="14.72" y="36">system intent)</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-6" transform="translate(570.000000, 28.000000)">
+                <rect id="Rectangle" fill="#4485F2" fill-rule="nonzero" x="0" y="0" width="135" height="39" rx="8"></rect>
+                <g id="On-enter" transform="translate(48.000000, 14.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text>
+                        <tspan x="0.035" y="10">On enter</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(570.000000, 76.000000)">
+                <g id="lifecycle-stage4" fill="#4485F2" fill-rule="nonzero">
+                    <rect id="Rectangle" x="0" y="0" width="135" height="40" rx="8"></rect>
+                </g>
+                <g id="Conditions" transform="translate(43.000000, 13.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text>
+                        <tspan x="0.01" y="10">Conditions</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(570.000000, 125.000000)">
+                <g id="lifecycle-stage3" fill="#4485F2" fill-rule="nonzero">
+                    <rect id="Rectangle" x="0" y="0" width="135" height="40" rx="8"></rect>
+                </g>
+                <g id="Slot-filling" transform="translate(45.000000, 14.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text>
+                        <tspan x="0.39" y="10">Slot filling</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(570.000000, 223.000000)">
+                <g id="lifecycle-stage3" fill="#4485F2" fill-rule="nonzero">
+                    <rect id="Rectangle" x="0" y="0" width="135" height="40" rx="8"></rect>
+                </g>
+                <g id="Input" transform="translate(55.000000, 14.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <text>
+                        <tspan x="0.345" y="10">Input</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(570.000000, 174.000000)">
+                <g id="lifecycle-stage2" fill="#4485F2" fill-rule="nonzero">
+                    <rect id="Rectangle" x="0" y="0" width="135" height="40" rx="8"></rect>
+                </g>
+                <g id="Group-3" transform="translate(47.000000, 13.000000)" fill="#FFFFFF" font-family="GoogleSans-Regular, Google Sans" font-size="10" font-weight="normal">
+                    <g id="Prompts">
+                        <text>
+                            <tspan x="0.95" y="10">Prompts</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(173.000000, 20.000000)" font-family="GoogleSans-Regular, Google Sans" font-weight="normal">
+                <g id="3.-Transition-to-and" transform="translate(273.000000, 113.000000)" fill="#949494" font-size="10">
+                    <text>
+                        <tspan x="2.495" y="10">3. Transition to and</tspan>
+                    </text>
+                    <text id="activate-next-scene">
+                        <tspan x="0.835" y="23">activate next scene</tspan>
+                    </text>
+                </g>
+                <g id="1.-Activate-scene-wi" transform="translate(0.000000, 15.000000)" fill="#737373" font-size="10">
+                    <text id="1.-Activate-scene">
+                        <tspan x="1.585" y="10">1. Activate scene</tspan>
+                    </text>
+                    <text id="with-global-intent">
+                        <tspan x="0.47" y="23">with global intent</tspan>
+                    </text>
+                </g>
+                <g id="…" transform="translate(179.000000, 0.000000)" fill="#737373" font-size="18">
+                    <text>
+                        <tspan x="0.718" y="17">…</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

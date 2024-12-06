@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@use "../settings/_variables" as *;
+@use "../settings/_mixin" as *;
+
+// body
+body {
+  background: $background;
+  color: $black;
+  font-weight: $regular;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+// header
+h1 {
+  font-weight: $bold;
+  font-size: 26px;
+  line-height: 39px;
+}
+h2 {
+  font-weight: $regular;
+  font-size: 24px;
+  line-height: 36px;
+}
+h3 {
+  font-weight: $medium;
+  font-size: 22px;
+  line-height: 33px;
+}
+h3.bold {
+  font-weight: $bold;
+}
+h4 {
+  font-weight: $bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+h5 {
+  font-weight: $bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+h6 {
+  font-weight: $bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// link
+a {
+  color: $black;
+  text-decoration: none;
+}
+
+// br for smartphone
+br.for-smartphone {
+  display: none;
+
+  @include mq(lp-smartphone) {
+    display: inline;
+  }
+}
+
+br.for-desktop {
+  display: inline;
+
+  @include mq(lp-tablet-portrait) {
+    display: none;
+  }
+
+  @include mq(lp-smartphone) {
+    display: none;
+  }
+}
+
+br.for-tablet-portrait {
+  display: none;
+
+  @include mq(lp-tablet-portrait) {
+    display: inline;
+  }
+
+  @include mq(lp-smartphone) {
+    display: none;
+  }
+}

@@ -1,0 +1,134 @@
+// Breakpoints
+$smartphone-max-width: 809px;
+$tablet-portrait-min-width: 810px;
+$tablet-portrait-max-width: 1079px;
+$tablet-landscape-min-width: 1080px;
+$tablet-landscape-max-width: 1366px;
+$desktop-min-width: 1367px;
+$breakpoints: (
+        'lp-smartphone': 'screen and (max-width: #{$smartphone-max-width})',
+        'lp-tablet-portrait': 'screen and (max-width: #{$tablet-portrait-max-width})',
+        'lp-tablet-landscape':
+        'screen and (max-width: #{$tablet-landscape-max-width})',
+        'lp-desktop': 'screen and (min-width: #{$desktop-min-width})',
+        'docs-smartphone': 'screen and (max-width: #{$tablet-portrait-max-width})',
+        'docs-tablet': 'screen and (max-width: #{$tablet-landscape-max-width})',
+        'docs-desktop': 'screen and (min-width: #{$desktop-min-width})',
+) !default;
+
+// font
+$base-font: 'Noto Sans Mono', sans-serif;
+$bold: 700;
+$medium: 500;
+$regular: 400;
+
+// color
+/* Basic */
+$white: #ffffff;
+$white-bg: #f7f8fb;
+$black: #181c53;
+$gray: #9396b9;
+$yellow: #fbbc01;
+$primary: #4650dd;
+$primary-light: #acb1f7;
+$link: #4381ff;
+$link-light: #bfd4ff;
+$info: #35b653;
+$info-light: #bff3cb;
+$success: #0ac5af;
+$success-light: #beede8;
+$warning: #ffc107;
+$warning-light: #fff0c1;
+$stop: #ff9c07;
+$stop-light: #ffedb4;
+$danger: #dc355d;
+$danger-light: #ffd1dc;
+$disabled: #a3a4af;
+
+$grid-line-color: #e5eeff;
+
+/* original */
+$text-body: $black;
+$text-description: $black;
+$text-placeholder: $black;
+$text-on-fill: $white;
+$text-link: $link;
+$text-alert: $danger;
+$text-desabled: $disabled;
+
+$button-run-bg: $primary;
+$button-run-text: $white;
+$button-run-hover-bg: $primary-light;
+$button-run-hover-text: $primary;
+
+$button-bg: $white;
+$button-border: $primary;
+$button-text: $black;
+$button-hover: $primary-light;
+$button-hover-border: $white;
+$button-hover-text: $primary;
+
+$button-primary-bg: $primary;
+$button-primary-text: $white;
+
+$button-stop-text: $white;
+$button-stop-bg: $stop;
+$button-stop-hover-text: $stop;
+$button-stop-hover-bg: $stop-light;
+$button-disabled: $disabled;
+
+$button-danger-bg: $danger;
+$button-danger-text: $white;
+
+$icon-primary: $black;
+$icon-primary-hover: $primary;
+$icon-stop: $stop;
+$icon-stop-hover: $stop-light;
+$icon-active: #acb1f7;
+$icon-disabled: $disabled;
+
+$background: $white-bg;
+
+$shadow85: rgba(218, 220, 248, 0.85);
+$shadow50: rgba(218, 220, 248, 0.5);
+$shadow100: rgba(219, 221, 246, 1);
+
+// spacing
+$base-space: 8px;
+$space-x05: $base-space * 0.5;
+$space-x2: $base-space * 2;
+$space-x3: $base-space * 3;
+$space-x4: $base-space * 4;
+$space-x5: $base-space * 5;
+$space-x6: $base-space * 6;
+$space-x7: $base-space * 7;
+$space-x8: $base-space * 8;
+$space-x9: $base-space * 9;
+$space-x10: $base-space * 10;
+$space-x11: $base-space * 11;
+$space-x13: $base-space * 13;
+
+// radius
+$base-radius: 12px;
+$radius-middle: 8px;
+$radius-small: 4px;
+
+// header
+$header-height: 64px;
+$header-drop-shadow-height: 4px;
+$header-logo-width: 180px;
+$header-logo-height: 36px;
+
+// left column
+$left-column-width: 272px;
+
+// center column
+$center-column-width: 792px;
+
+// footer
+$footer-vertical-height: 148px;
+$footer-fixed-height: 28px;
+$footer-logo-width: 277px;
+$footer-logo-height: 44px;
+$footer-logo-sp-width: 161px;
+$footer-logo-sp-height: 26px;
